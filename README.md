@@ -75,8 +75,6 @@ const observer = new IntersectionObserver((entries) => {
 
 ---
 
----
-
 #### 1. **API 응답 구조 예시**
 
 * `fetchAlbums` 함수가 응답으로 받는 `Response.data` 구조를 예시로 보여주면 이해가 쉬움.
