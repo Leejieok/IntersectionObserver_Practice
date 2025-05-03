@@ -75,8 +75,6 @@ const observer = new IntersectionObserver((entries) => {
 
 ---
 
-좋은 질문이야! 지금 정리한 내용은 꽤 충실하지만, **프로젝트를 더 이해하고 확장하기 위해** 아래 항목들도 추가해두면 좋겠어:
-
 ---
 
 #### 1. **API 응답 구조 예시**
