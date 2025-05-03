@@ -1,3 +1,5 @@
+import config from "./api_key.js";
+
 const inputTag = document.querySelector(".search-box__input");
 const searchResult = document.querySelector(".search-result");
 const searchBtn = document.querySelector(".search-box__button");
@@ -6,7 +8,7 @@ sentinel.id = "sentinel";
 searchResult.appendChild(sentinel);
 
 const API_URL = "http://ws.audioscrobbler.com/2.0/";
-const API_KEY = "0222b230143d82f99a931ff36d86654e";
+const API_KEY = config.API_KEY;
 
 let currentPage = 1;
 let isLoading = false;
